@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;700&family=Roboto:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #FF6C22;
+    justify-content: center;
+}
+
+.container-login-branco {
+    position: relative;
+    width: 60%;
+    height: 65%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 19px (0, 0, 0, 0.25);
+    border-radius: 4px;    
+}
+
+.container-login-preto {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;        
+}
+
+.img-preto {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.img-note {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    width: 100%;
+}
+
+.logo-agencia {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+        
+}
+
+.login-title {
+    font-weight: 700;     
+    margin-top: 10%;  
+}
+
+.bemvindo, 
+.fonte-painel {
+    font-size: 29px;
+    line-height: 54.09px;
+    
+}
+
+.bemvindo,
+.fonte-ao {
+    color: rgba(0, 0, 0, 0.44);
+    font-family: 'Advent Pro';
+}
+
+.fonte-ao {
+    font-family: 'Advent Pro';
+    font-size: 25px;
+    line-height: 46.63px;
+    
+}
+
+.fonte-painel {
+    font-family: 'Roboto';
+    font-size: 29px;
+    line-height: 54.09px;
+    color: #FF6C22;
+}
+
+.input-email{
+    box-sizing: border-box;
+    width: 313px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.input-senha{
+    box-sizing: border-box;
+    width: 313px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 5%;
+    
+}
+
+.icone-ocultar{
+    margin-right: 85%;
+}    
+
+
+.button-btn {    
+    width: 151px;
+    height: 40px;
+    left: 562px;
+    top: 686px;    
+    border-radius: 5px;
+    border: 0px;
+    background: #2EAFB2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 186.5%;    
+    text-align: center;    
+    margin-top: 5%;  
+}
+
+.button-btn:hover {
+    cursor: pointer;
+}
+
+

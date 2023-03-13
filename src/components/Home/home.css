@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;700&family=Roboto:wght@100;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-home {    
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #E5E5E5;
+    justify-content: center;
+    display: flex;
+}
+
+.bloco-menu {
+    position: absolute;
+    flex: 1;
+    background-color: #ffffff;
+    width: 300px;
+    height: 100%;
+    left: 0%;
+}
+
+.logo-agencia-menu {
+    padding-top: 10%;
+    margin-left: 5%;
+}
+
+li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 8px 8px 43px;
+    width: 211px;
+    height: 50px;
+    top: 50px;
+    left: 20px;
+    border-radius: 5px;
+    background: #2EAFB2;
+    margin-top: 7px;
+    font-family: Advent Pro;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+        
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    background-image: url(../../imagens/IconeContato.png);
+    background-repeat: no-repeat, no-repeat;
+    width: 23px;
+    height: 22px;
+    left: 12px;
+}
+
+.icon-inicio::before {
+    background-image: url(../../imagens/IconeInicio.png);
+   
+}
+
+.icon-relatorio::before {
+    background-image: url(../../imagens/IconeRelatorio.png);
+}
+
+.icon-inicio {
+    width: 245px;
+    height: 50px;
+    border: 0px;
+    background-color: #E5E5E5;
+    font-family: Advent Pro;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.botao-inicio {
+    width: 160px;
+    height: 40px;    
+    border-radius: 5px;
+    border: 0;
+    border: 0px;
+    background: #E5E5E5;
+    font-family: 'Advent Pro';    
+    font-weight: 700;
+    font-size: 16px;      
+    text-align: left;   
+    cursor: pointer; 
+     
+}
+
+.cabecalho {
+    position: absolute;
+    top: 45px;
+    left: 25%;
+    width: 72%;
+    height: 10%;
+    font-family: 'Advent Pro';  
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.44);
+    border-bottom: groove;
+}
+
+.usuario {
+    font-weight: bold;
+}
+
+.bloco-praia {
+    position: absolute;
+    display: flex;
+    flex: 2;
+    top: 25%;
+    height: 75%;
+    left: 25%;
+    right: 2.5%;
+}   
+
+.PaisagemPraia {
+    margin: 5px;
+    height: 160px;
+    width: 300px;
+
+}
+
